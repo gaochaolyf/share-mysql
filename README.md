@@ -101,6 +101,7 @@ FROM
 	) `c`;
 ```
 在192.168.5.110上 EXPLAIN 该语句结果：
+
 | id | select_type| table| type| possible_keys| key | key_len| ref|rows| Extra |
 | :--- | :---| :---|:---|:---|:---|:---|:---|:---|:---|                   
 |  1 | PRIMARY     | `<`derived2`>`| ALL  | NULL          | NULL | NULL    | NULL | 8997 | NULL    |
